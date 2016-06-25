@@ -25,6 +25,10 @@ class ViewController: UIViewController {
     var counter = 30
     var timer = NSTimer()
     
+    func printName() -> Void {
+        print("Hello github")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         lbl_right.textColor = UIColor.blueColor()
