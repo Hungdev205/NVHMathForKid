@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EC4C4061D1D410B00E4F40B /* backGroundApp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0EC4C4041D1D410B00E4F40B /* backGroundApp.jpg */; };
+		0EC4C4071D1D410B00E4F40B /* backGroundApp2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0EC4C4051D1D410B00E4F40B /* backGroundApp2.jpg */; };
 		0ED2CF031D1A9ECE00BAC74B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2CF021D1A9ECE00BAC74B /* AppDelegate.swift */; };
 		0ED2CF051D1A9ECE00BAC74B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2CF041D1A9ECE00BAC74B /* ViewController.swift */; };
 		0ED2CF081D1A9ECE00BAC74B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ED2CF061D1A9ECE00BAC74B /* Main.storyboard */; };
 		0ED2CF0A1D1A9ECE00BAC74B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ED2CF091D1A9ECE00BAC74B /* Assets.xcassets */; };
 		0ED2CF0D1D1A9ECE00BAC74B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ED2CF0B1D1A9ECE00BAC74B /* LaunchScreen.storyboard */; };
+		0ED2CF1A1D1AA49000BAC74B /* BGMathKids.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0ED2CF151D1AA49000BAC74B /* BGMathKids.jpg */; };
+		0ED2CF1B1D1AA49000BAC74B /* cute-funny-animals-wooden-board-wild-cartoon-background-blank-your-massage-48486779.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0ED2CF161D1AA49000BAC74B /* cute-funny-animals-wooden-board-wild-cartoon-background-blank-your-massage-48486779.jpg */; };
+		0ED2CF1C1D1AA49000BAC74B /* note1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0ED2CF171D1AA49000BAC74B /* note1.jpg */; };
+		0ED2CF1D1D1AA49000BAC74B /* note2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0ED2CF181D1AA49000BAC74B /* note2.jpg */; };
+		0ED2CF1E1D1AA49000BAC74B /* note3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0ED2CF191D1AA49000BAC74B /* note3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0EC4C4041D1D410B00E4F40B /* backGroundApp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backGroundApp.jpg; sourceTree = "<group>"; };
+		0EC4C4051D1D410B00E4F40B /* backGroundApp2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backGroundApp2.jpg; sourceTree = "<group>"; };
 		0ED2CEFF1D1A9ECE00BAC74B /* MathForKid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathForKid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ED2CF021D1A9ECE00BAC74B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0ED2CF041D1A9ECE00BAC74B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,11 @@
 		0ED2CF091D1A9ECE00BAC74B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0ED2CF0C1D1A9ECE00BAC74B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0ED2CF0E1D1A9ECE00BAC74B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ED2CF151D1AA49000BAC74B /* BGMathKids.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BGMathKids.jpg; sourceTree = "<group>"; };
+		0ED2CF161D1AA49000BAC74B /* cute-funny-animals-wooden-board-wild-cartoon-background-blank-your-massage-48486779.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cute-funny-animals-wooden-board-wild-cartoon-background-blank-your-massage-48486779.jpg"; sourceTree = "<group>"; };
+		0ED2CF171D1AA49000BAC74B /* note1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = note1.jpg; sourceTree = "<group>"; };
+		0ED2CF181D1AA49000BAC74B /* note2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = note2.jpg; sourceTree = "<group>"; };
+		0ED2CF191D1AA49000BAC74B /* note3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = note3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 		0ED2CF011D1A9ECE00BAC74B /* MathForKid */ = {
 			isa = PBXGroup;
 			children = (
+				0ED2CF141D1AA36A00BAC74B /* Resource */,
 				0ED2CF021D1A9ECE00BAC74B /* AppDelegate.swift */,
 				0ED2CF041D1A9ECE00BAC74B /* ViewController.swift */,
 				0ED2CF061D1A9ECE00BAC74B /* Main.storyboard */,
@@ -62,6 +77,20 @@
 				0ED2CF0E1D1A9ECE00BAC74B /* Info.plist */,
 			);
 			path = MathForKid;
+			sourceTree = "<group>";
+		};
+		0ED2CF141D1AA36A00BAC74B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0EC4C4041D1D410B00E4F40B /* backGroundApp.jpg */,
+				0EC4C4051D1D410B00E4F40B /* backGroundApp2.jpg */,
+				0ED2CF151D1AA49000BAC74B /* BGMathKids.jpg */,
+				0ED2CF161D1AA49000BAC74B /* cute-funny-animals-wooden-board-wild-cartoon-background-blank-your-massage-48486779.jpg */,
+				0ED2CF171D1AA49000BAC74B /* note1.jpg */,
+				0ED2CF181D1AA49000BAC74B /* note2.jpg */,
+				0ED2CF191D1AA49000BAC74B /* note3.jpg */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +152,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				0ED2CF0D1D1A9ECE00BAC74B /* LaunchScreen.storyboard in Resources */,
+				0ED2CF1E1D1AA49000BAC74B /* note3.jpg in Resources */,
+				0ED2CF1B1D1AA49000BAC74B /* cute-funny-animals-wooden-board-wild-cartoon-background-blank-your-massage-48486779.jpg in Resources */,
 				0ED2CF0A1D1A9ECE00BAC74B /* Assets.xcassets in Resources */,
+				0EC4C4061D1D410B00E4F40B /* backGroundApp.jpg in Resources */,
+				0ED2CF1D1D1AA49000BAC74B /* note2.jpg in Resources */,
+				0ED2CF1C1D1AA49000BAC74B /* note1.jpg in Resources */,
 				0ED2CF081D1A9ECE00BAC74B /* Main.storyboard in Resources */,
+				0EC4C4071D1D410B00E4F40B /* backGroundApp2.jpg in Resources */,
+				0ED2CF1A1D1AA49000BAC74B /* BGMathKids.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +322,7 @@
 				0ED2CF131D1A9ECE00BAC74B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
